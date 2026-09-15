@@ -2,8 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malak Shahan | Portfolio</title>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Malak Shahan | Software Engineering & Backend Portfolio
+    </title>
+
+    <meta
+        name="description"
+        content="Portfolio of Malak Shahan, a Software Engineering student building backend APIs, AI workflows, authentication systems, background jobs, and Python projects."
+    >
+
+    <meta
+        name="author"
+        content="Malak Shahan"
+    >
+
+    <!-- Social Share / Open Graph -->
+    <meta
+        property="og:title"
+        content="Malak Shahan | Software Engineering Portfolio"
+    >
+
+    <meta
+        property="og:description"
+        content="Backend development, APIs, AI workflows, authentication, background jobs, and Python projects by Malak Shahan."
+    >
+
+    <meta
+        property="og:type"
+        content="website"
+    >
+
+    <meta
+        property="og:url"
+        content="https://muhammad-shahaan.github.io/shahan-portfolio/"
+    >
 
     <style>
         body {
@@ -37,6 +75,10 @@
             max-width: 100%;
             height: auto;
         }
+
+        .project {
+            margin-bottom: 28px;
+        }
     </style>
 </head>
 
@@ -50,7 +92,8 @@
         </p>
 
         <p>
-            I build software solutions and fix program logic when results do not work as expected.
+            I build software solutions and fix program logic
+            when results do not work as expected.
         </p>
     </header>
 
@@ -60,9 +103,11 @@
         <h2>About Me</h2>
 
         <p>
-            I am a Software Engineering student who learns by building real projects.
-            I am currently improving my skills in Python, backend development,
-            APIs, authentication, and web development.
+            I am a Software Engineering student who learns by
+            building real projects. I am currently improving my
+            skills in Python, backend development, APIs,
+            authentication, AI workflows, databases, and
+            background job systems.
         </p>
     </section>
 
@@ -70,8 +115,9 @@
         <h2>What I'm Building</h2>
 
         <p>
-            I have worked on projects including a Task API, Auth API,
-            Python Book Scraper, and my personal portfolio.
+            I have worked on backend APIs, authentication systems,
+            Python scraping, AI workflow automation, report
+            generation pipelines, and asynchronous background jobs.
         </p>
     </section>
 
@@ -79,25 +125,40 @@
         <h2>Links</h2>
 
         <p>
-            <a href="https://www.linkedin.com/in/muhammad-shahan-726bb7382" target="_blank">
+            <a
+                href="https://www.linkedin.com/in/muhammad-shahan-726bb7382"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 LinkedIn
             </a>
         </p>
 
         <p>
-            <a href="https://github.com/muhammad-shahaan" target="_blank">
+            <a
+                href="https://github.com/muhammad-shahaan"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 GitHub
             </a>
         </p>
 
         <p>
-            <a href="cv.pdf" target="_blank">
+            <a
+                href="cv.pdf"
+                target="_blank"
+            >
                 CV
             </a>
         </p>
 
         <p>
-            <a href="https://calendar.app.google/4oau76wnmJTsnntv6" target="_blank">
+            <a
+                href="https://calendar.app.google/4oau76wnmJTsnntv6"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 Book a Meeting
             </a>
         </p>
@@ -106,26 +167,127 @@
     <section>
         <h2>Projects</h2>
 
-        <h3>Book Scraper</h3>
+        <div class="project">
+            <h3>Task API</h3>
 
-        <p>
-            A polite Python scraper that collects and validates book data
-            and saves the results as JSON.
-        </p>
+            <p>
+                A FastAPI CRUD API with task creation,
+                retrieval, updating, deletion, validation,
+                SQLite storage, and Swagger documentation.
+            </p>
 
-        <p>
-            <a href="https://github.com/muhammad-shahaan/book-scraper" target="_blank">
+            <a
+                href="https://github.com/muhammad-shahaan/task-api"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Task API on GitHub
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>Auth API</h3>
+
+            <p>
+                A FastAPI authentication project using Supabase,
+                protected routes, login, signup, and token-based
+                profile access.
+            </p>
+
+            <a
+                href="https://github.com/muhammad-shahaan/auth-api"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Auth API on GitHub
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>Book Scraper</h3>
+
+            <p>
+                A polite Python scraper that collects and validates
+                book data and saves the results as JSON.
+            </p>
+
+            <a
+                href="https://github.com/muhammad-shahaan/book-scraper"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 View Book Scraper on GitHub
             </a>
-        </p>
+        </div>
+
+        <div class="project">
+            <h3>AI Workflow Builder</h3>
+
+            <p>
+                A visual AI workflow system built with React Flow,
+                Inngest, and AI-powered YES/NO decision branching.
+            </p>
+
+            <a
+                href="https://github.com/muhammad-shahaan/ai-workflow-builder"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View AI Workflow Builder on GitHub
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>Report Pipeline</h3>
+
+            <p>
+                A background PDF report generation pipeline using
+                FastAPI, SQLite, ReportLab, SQL aggregation,
+                and Inngest.
+            </p>
+
+            <a
+                href="https://github.com/muhammad-shahaan/report-pipeline"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Report Pipeline on GitHub
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>Async Job API</h3>
+
+            <p>
+                A FastAPI background job system using Inngest,
+                SQLite, retries, idempotency, AI processing,
+                and job status tracking.
+            </p>
+
+            <a
+                href="https://github.com/muhammad-shahaan/async-job-api"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Async Job API on GitHub
+            </a>
+        </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
 
-        <form action="https://formspree.io/f/mzebarvy" method="POST">
+        <form
+            action="https://formspree.io/f/mzebarvy"
+            method="POST"
+        >
 
-            <label for="name">Name</label><br>
+            <label for="name">
+                Name
+            </label>
+
+            <br>
+
             <input
                 type="text"
                 id="name"
@@ -135,7 +297,12 @@
 
             <br><br>
 
-            <label for="email">Email</label><br>
+            <label for="email">
+                Email
+            </label>
+
+            <br>
+
             <input
                 type="email"
                 id="email"
@@ -145,7 +312,12 @@
 
             <br><br>
 
-            <label for="message">Message</label><br>
+            <label for="message">
+                Message
+            </label>
+
+            <br>
+
             <textarea
                 id="message"
                 name="message"
@@ -167,7 +339,8 @@
 
         <p>
             This portfolio will be updated with more projects,
-            capstone work, future posts, and my FlyRank completion badge.
+            capstone work, future posts, and my FlyRank
+            completion badge.
         </p>
     </section>
 
